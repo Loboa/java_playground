@@ -13,9 +13,9 @@ package accounts;
 //Creating a test class to deposit and withdraw amount  
 
 public class Account {
-	int accNo;
-	String name;
-	float balance;
+	private int accNo;
+	private String name;
+	private float balance;
 	
 	void enterDetails(int accNo, String name, float balance) {
 		this.accNo = accNo;
